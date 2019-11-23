@@ -1,6 +1,6 @@
 .ProjectContainer {
   position: absolute;
-  width: 50vw;
+  width: 55vw;
   height: 70vh;
   margin: auto;
   top: 0;
@@ -15,5 +15,11 @@
     width: 90vw;
     height: 100%;
     margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {
+  .ProjectContainer {
+    width: 70vw;
   }
 }

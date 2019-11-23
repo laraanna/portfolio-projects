@@ -18,8 +18,9 @@
 @media only screen and (max-width: 768px) {
   .LandingPage {
     overflow: scroll;
+    background-color: white;
   }
   .LandingPage h3 {
     display: none;
-  } 
+  }
 }
