@@ -36,21 +36,21 @@
 }
 
 .Project:first-child {
-  background-color: #BFDEE0;
-}
-.Project:first-child p {
-  color: #134859;
-}
-.Project:first-child .Title {
-  color: #134859;
+  background-color: #50609C;
 }
 
 .Project:nth-child(2) {
-  background-color: #A42936;
+  background-color: #ffffff;
+}
+.Project:nth-child(2) p {
+  color: #134859;
+}
+.Project:nth-child(2) .Title {
+  color: #134859;
 }
 
 .Project:nth-child(3) {
-  background-color: #ffffff;
+  background-color: #F5D8D3;
 }
 .Project:nth-child(3) p {
   color: #134859;
@@ -60,11 +60,11 @@
 }
 
 .Project:nth-child(4) {
-  background-color: #134859;
+  background-color: #479A6B;
 }
 
 .Project:nth-child(5) {
-  background-color: #E55326;
+  background-color: #E6B81E;
 }
 
 @media only screen and (min-width: 769px) {
@@ -78,6 +78,10 @@
     display: none;
     max-width: unset;
     max-height: unset;
+    top: unset;
+    left: unset;
+    right: unset;
+    bottom: unset;
   }
 
   .Project:hover {

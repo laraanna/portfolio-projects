@@ -56,7 +56,7 @@ export default [
     grid2: "",
     grid3: "",
     grid4: "",
-    color: "#BFDEE0",
+    color: "#50609C",
 
 
   },
@@ -85,7 +85,7 @@ export default [
     image4: "",
     grid3: "",
     grid4: "",
-    color: "#A42936",
+    color: "#134859",
 
   },
   {
@@ -113,26 +113,8 @@ export default [
     grid2: game2,
     grid3: game3,
     grid4: game4,
-    color: "#F3F3F3",
+    color: "#F5D8D3",
   },
-
-  // {
-  //   _id: "3",
-  //   title: "Fanny Zintl,",
-  //   year: "MMXVIII",
-  //   subtitle: "Portfolio",
-  //   photo: fanny,
-  //   description:
-  //     "Fanny Zintl is a brand strategist from Amsterdam. Besides translating her designs into a fully-responsive website I was also involved in the creative aspect of creating a coherent brand identity.",
-  //   client: "Fanny Zintl (UX Design)",
-  //   role: "Programming",
-  //   team: "Fanny Zintl",
-  //   video: "https://player.vimeo.com/video/250903595?autoplay=1",
-  //   statement: portfolio_second,
-  //   photo_2: fanny_phone,
-  //   header: "Responsive Design",
-  //   caption: "The website, coded without any framework, is fully responsive."
-  // },
   {
     _id: "4",
     title: "Squarespace",
@@ -158,7 +140,7 @@ export default [
     grid2: "",
     grid3: "",
     grid4: "",
-    color: "#134859",
+    color: "#479A6B",
 
   },
 
@@ -186,6 +168,6 @@ export default [
     grid2: "",
     grid3: "",
     grid4: "",
-    color: "#E55326",
+    color: "#E6B81E",
   },
 ];
