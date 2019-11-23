@@ -1,0 +1,25 @@
+.Navigation {
+  display: table-cell;
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  padding-left: 100px;
+  padding-right: 100px;
+  z-index: 999; }
+  .Navigation a > div {
+    display: inline-block;
+    vertical-align: middle; }
+  .Navigation .Icon > img {
+    position: relative;
+    height: 45px; }
+  .Navigation a > .Profile {
+    float: right;
+    line-height: 45px;
+    color: #134859; }
+
+@media only screen and (max-width: 768px) {
+  .Navigation {
+    padding: 25px;
+    background-color: white; } }

@@ -1,0 +1,77 @@
+.Project {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 15vh;
+  vertical-align: top;
+  z-index: 0; }
+  .Project p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: white; }
+    .Project p span {
+      font-style: italic; }
+  .Project .Title {
+    color: white; }
+  .Project img {
+    display: none; }
+
+.Project:first-child {
+  background-color: #BFDEE0; }
+  .Project:first-child p {
+    color: #134859; }
+  .Project:first-child .Title {
+    color: #134859; }
+
+.Project:nth-child(2) {
+  background-color: #A42936; }
+
+.Project:nth-child(3) {
+  background-color: #ffffff; }
+  .Project:nth-child(3) p {
+    color: #134859; }
+  .Project:nth-child(3) .Title {
+    color: #134859; }
+
+.Project:nth-child(4) {
+  background-color: #134859; }
+
+.Project:nth-child(5) {
+  background-color: #E55326; }
+
+@media only screen and (min-width: 769px) {
+  .Project {
+    width: 20%;
+    height: 35vh; }
+    .Project:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+      z-index: 1;
+      transition: transform 0.7s ease;
+      background-color: transparent !important; }
+      .Project:hover img {
+        display: block;
+        margin: 0 auto;
+        max-height: 35vh; }
+      .Project:hover .Title, .Project:hover p {
+        display: none; }
+  .Project:first-child {
+    margin-left: 25%;
+    margin-right: 20%; }
+  .Project:nth-child(2) {
+    width: 17%;
+    height: 20vh;
+    vertical-align: bottom; }
+    .Project:nth-child(2) img {
+      position: absolute;
+      bottom: 0; }
+  .Project:nth-child(3) {
+    width: 45%;
+    height: 20vh; }
+  .Project:nth-child(5) {
+    height: 16vh;
+    width: 35%; } }

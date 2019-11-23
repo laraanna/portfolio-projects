@@ -1,4 +1,8 @@
 import React, { PureComponent } from "react";
+import "./LandingPage.css";
+import TextBlock from "../components/TextBlock";
+import ProjectContainer from "./ProjectContainer";
+import projects from "../fixtures/projects";
 
 class LandingPage extends PureComponent {
   render() {
@@ -7,6 +11,7 @@ class LandingPage extends PureComponent {
         <h3>
           Lara Wagner
         </h3>
+        <ProjectContainer projects={projects} />
       </div>
     );
   }

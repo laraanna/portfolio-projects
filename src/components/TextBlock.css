@@ -1,0 +1,12 @@
+.TextBlock {
+  font-size: 1.2em;
+  line-height: 180%;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+  .TextBlock {
+    font-size: 4.5vw;
+  }
+}
