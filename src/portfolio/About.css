@@ -1,0 +1,43 @@
+.About {
+  width: 55vw;
+  font-size: 1em;
+  margin: 0 auto;
+  margin-top: 15vh;
+  line-height: 300%;
+}
+.About h1 {
+  font-weight: 300;
+}
+.About h1 i {
+  font-weight: 500;
+  color: #134859;
+}
+.About h1 u {
+  font-style: italic;
+}
+.About h1:first-of-type {
+  font-weight: 700;
+  font-size: 3em;
+  color: #134859;
+}
+.About div {
+  display: inline-block;
+  font-size: 2vw;
+  padding: 8px;
+  padding-top: 25px;
+  margin-right: 25px;
+  color: #0079A2;
+}
+
+@media only screen and (max-width: 768px) {
+  .About {
+    width: 90vw;
+  }
+  .About h1 {
+    font-size: 4.5vw;
+    line-height: 180%;
+  }
+  .About h1:first-of-type {
+    font-size: 2.5em;
+  } 
+}
