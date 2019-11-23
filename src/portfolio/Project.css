@@ -36,7 +36,7 @@
 }
 
 .Project:first-child {
-  background-color: #50609C;
+  background-color: #479A6B;
 }
 
 .Project:nth-child(2) {
@@ -60,7 +60,7 @@
 }
 
 .Project:nth-child(4) {
-  background-color: #479A6B;
+  background-color: #50609C;
 }
 
 .Project:nth-child(5) {

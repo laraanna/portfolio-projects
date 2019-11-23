@@ -56,7 +56,7 @@ export default [
     grid2: "",
     grid3: "",
     grid4: "",
-    color: "#50609C",
+    color: "#479A6B",
 
 
   },
@@ -140,7 +140,7 @@ export default [
     grid2: "",
     grid3: "",
     grid4: "",
-    color: "#479A6B",
+    color: "#50609C",
 
   },
 
