@@ -65,7 +65,7 @@ export default [
     title: "HiFive",
     year: "2015",
     subtitle: "Triggering the senses",
-    photo: logoHiFive,
+    photo: hi6,
     description:
       "The conventional way of producing denim pants is resource intense and environmentally unfriendly. We took that as as challenge and created a denim brand that is fun, sustainable, engaging and on top of that improve environmental conditions. Meet HiFive: a children's brand where a product becomes as tangible and interactive as a playmate. We want to trigger all five senses by creating pants with a special coating, reacting according to our senses. Our innovative business model enables us to not only satisfy the needs of the customer but as well creates a value for our company once the customer is done or grown out of their pants.",
     client: "Blue Fair",
