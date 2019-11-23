@@ -2,10 +2,9 @@
   position: relative;
   display: inline-block;
   width: 100%;
-  height: 15vh;
+  height: 25vh;
   vertical-align: top;
   z-index: 0;
-  margin-bottom: 15px;
 }
 
 .Project p {
@@ -25,7 +24,10 @@
   color: white;
 }
 .Project img {
-  display: none;
+  max-height: 100%;
+  position: absolute;
+  bottom:0;
+  right: 0;
 }
 
 .Project:first-child {
@@ -64,15 +66,19 @@
   .Project {
     width: 20%;
     height: 35vh;
-    margin-bottom: 0px;
   }
+  .Project img {
+    display: none;
+  }
+
   .Project:hover {
     cursor: pointer;
     transform: scale(1.05);
     z-index: 1;
-    transition: transform 0.7s ease;
-    background-color: transparent !important;
+    transition: transform 0.7s ease-in;
+    background-color: transparent;
   }
+
   .Project:hover img {
     display: block;
     margin: 0 auto;
@@ -98,12 +104,21 @@
     width: 40%;
     height: 20vh;
   }
+  .Project:nth-child(3) img {
+    position: absolute;
+    top: 0px;
+  }
   .Project:nth-child(4) {
     width: 25%;
   }
   .Project:nth-child(5) {
     height: 16vh;
     width: 35%;
-  } 
+  }
+  .Project:nth-child(5) img {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
 
 }
