@@ -87,4 +87,9 @@
   .ProjectPage .video-second, .ProjectPage img, .ProjectPage .video {
     max-width: 90vw;
   }
+  .ProjectPage .WrapperVisuals > div, .ProjectPage .WrapperVisuals > img  {
+    margin-bottom: 8vh !important;
+    max-height: 65vh;
+
+  }
 }
