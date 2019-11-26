@@ -41,7 +41,7 @@ class ProjectPage extends PureComponent {
         </video>
       );
     } else if (photo_1 !== ""){
-      cast = <img alt="img" className="GalleryRight" src={photo_1} />;
+      cast = <img className="GalleryRight" src={photo_1} />;
     }
 
     if (video !== "") {
@@ -100,12 +100,10 @@ class ProjectPage extends PureComponent {
         </div>
         </div>
 
-        <div className="fullWidth">
           <img src={image1} />
           <img src={image2} />
           <img src={image3} />
           <img src={image4} />
-        </div>
   </div>
 
 

@@ -1,64 +1,90 @@
 .ProjectPage {
   max-width: 55vw;
   margin: 0 auto;
-  margin-top: 70px; }
-  .ProjectPage .SubText {
-    color: #696969;
-    font-size: 0.5em; }
-    .ProjectPage .SubText h2 {
-      font-weight: 300; }
-  .ProjectPage img[src=""] {
-    display: none; }
-  .ProjectPage .video-second, .ProjectPage img, .ProjectPage .video {
-    max-width: 55vw; }
-  .ProjectPage .fullWidth {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center; }
-    .ProjectPage .fullWidth .grid {
-      margin: 0 auto; }
-      .ProjectPage .fullWidth .grid > img {
-        margin: 5px;
-        max-width: calc(50% - 10px); }
-  .ProjectPage .Header {
-    display: inline-block;
-    font-size: 2.5em;
-    margin-bottom: 0; }
-    .ProjectPage .Header > div {
-      margin: 1px;
-      display: inline-block;
-      padding: 3px;
-      background-color: red; }
-    .ProjectPage .Header.Sub {
-      font-size: 1em;
-      display: block;
-      margin-bottom: 16px;
-      color: white; }
-  .ProjectPage .WrapperVisuals {
-    margin-top: 6%;
-    text-align: center; }
-    .ProjectPage .WrapperVisuals .video {
-      margin: 0 auto; }
-      .ProjectPage .WrapperVisuals .video .aspectRatio {
-        position: relative;
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-        overflow: hidden; }
-        .ProjectPage .WrapperVisuals .video .aspectRatio iframe {
-          cursor: pointer;
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          left: 0;
-          top: 0; }
-    .ProjectPage .WrapperVisuals .GalleryLeft, .ProjectPage .WrapperVisuals .GalleryRight {
-      margin: 0 auto;
-      display: block;
-      width: 100vw; }
+  margin-top: 70px;
+}
+.ProjectPage .SubText {
+  color: #696969;
+  font-size: 0.5em;
+}
+.ProjectPage .SubText h2 {
+  font-weight: 300;
+}
+.ProjectPage img[src=""] {
+  display: none;
+}
+.ProjectPage .video-second, .ProjectPage img, .ProjectPage .video {
+  max-width: 55vw;
+}
+.ProjectPage .fullWidth {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.ProjectPage .fullWidth .grid {
+  margin: 0 auto;
+}
+.ProjectPage .fullWidth .grid > img {
+  margin: 5px;
+  max-width: calc(50% - 10px);
+}
+.ProjectPage .Header {
+  display: inline-block;
+  font-size: 2.5em;
+  margin-bottom: 0;
+}
+.ProjectPage .Header > div {
+  margin: 1px;
+  display: inline-block;
+  padding: 3px;
+  background-color: red;
+}
+.ProjectPage .Header.Sub {
+  font-size: 1em;
+  display: block;
+  margin-bottom: 16px;
+  color: white;
+}
+.ProjectPage .WrapperVisuals {
+  margin-top: 6%;
+  text-align: center;
+}
+.ProjectPage .WrapperVisuals .video {
+  margin: 0 auto;
+}
+
+.ProjectPage .WrapperVisuals > div, .ProjectPage .WrapperVisuals > img  {
+  margin-bottom: 15vh !important;
+  max-height: 80vh;
+
+}
+
+.ProjectPage .WrapperVisuals .video .aspectRatio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+.ProjectPage .WrapperVisuals .video .aspectRatio iframe {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.ProjectPage .WrapperVisuals .GalleryLeft, .ProjectPage .WrapperVisuals .GalleryRight {
+  margin: 0 auto;
+  display: block;
+  width: 100vw;
+}
 
 @media only screen and (max-width: 768px) {
   .ProjectPage {
-    max-width: 90vw; }
-    .ProjectPage .video-second, .ProjectPage img, .ProjectPage .video {
-      max-width: 90vw; } }
+    max-width: 90vw;
+  }
+  .ProjectPage .video-second, .ProjectPage img, .ProjectPage .video {
+    max-width: 90vw;
+  }
+}

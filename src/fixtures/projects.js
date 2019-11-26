@@ -7,8 +7,12 @@ import matchmaker_second from "../images/videos/squarespace_second.m4v";
 import oneill_second from "../images/videos/oneill_second.m4v";
 import garments_1 from "../images/products/garments_1.png";
 import garments_2 from "../images/products/garments_1.jpg";
+import thijs from "../images/products/thijsDrawing.jpg";
+import rack from "../images/products/bannerrack.jpg";
 import fanny_phone from "../images/products/fanny_phone.gif";
 import hugo_phone from "../images/products/hugo_phone.gif";
+import hugo_4 from "../images/products/hugo4.jpg";
+import hugo_7 from "../images/products/hugo7.jpg";
 import brain from "../images/products/brain.png";
 import suit from "../images/products/suit.png";
 import innovators from "../images/products/innovators2.gif";
@@ -73,7 +77,7 @@ export default [
     video: "",
     mainImage: hi6,
     statement: "",
-    photo_1: hi8,
+    photo_1: "",
     photo_2: hi1,
     header: "Be bold",
     caption: "Nowadays children grow up in a virtual world without many tangible real life experiences. We as a brand bring them back to the core of living and embrace the opportunities of technology. We believe that joy for all of us means taking care of our surroundings in a fun way. We prove that sustainability is the norm and not a trend." ,
@@ -128,12 +132,12 @@ export default [
     team: "Fanny Zintl, Almut Pumpluen, No Bokas",
     video: "https://player.vimeo.com/video/250942454?autoplay=1",
     statement: matchmaker_second,
-    photo_2: hugo_phone,
+    photo_2: hugo_4,
     header: "Hyperlinks",
     caption:
       "The Matchmaker also helps artists & designers stand out in a pool of similarly skilled peers. In-page hyperlinks can be added to dynamically highlight the jobseekers' most relevant works and skills.",
-    image1: "",
-    image2: "",
+    image1: hugo_7,
+    image2: hugo_phone,
     image3: "",
     image4: "",
     grid1: "",
@@ -154,14 +158,14 @@ export default [
       "Assigned by the design department of surf wear brand O’Neill, I had been ask to propose a digital strategy of how to attract a new, trend-aware consumer. The ‘Surf - Playground’ is an interactive website that enables users to drag and drop different pieces of clothing on top of a model and playfully decide which style they like best.",
     client: "3D Hypercraft x O'Neill",
     role: "Concept Development | Design | Programming",
-    video: "https://player.vimeo.com/video/250907860?autoplay=1",
+    video: "https://player.vimeo.com/video/375217808?autoplay=1",
     statement: oneill_second,
-    photo_2: suit,
+    photo_2: thijs,
     header: "Modular Strap System",
     caption:
       "The mock-garments, simulated in CLO3D, include a modular strap system that allows end-users to put different pieces together, adapting the outfit according to their individual needs and preferences.",
-    image1: "",
-    image2: "",
+    image1: suit,
+    image2: rack,
     image3: "",
     image4: "",
     grid1: "",
