@@ -53,9 +53,9 @@ class ProjectPage extends PureComponent {
               width="640"
               height="360"
               frameBorder="0"
-              webkitallowfullscreen="true"
-              mozallowfullscreen="true"
-              allowFullScreen="true"
+              webkitallowfullscreen= {true}
+              mozallowfullscreen= {true}
+              allowFullScreen= {true}
             />
           </div>
         </div>
