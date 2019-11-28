@@ -1,26 +1,33 @@
 .About {
+  display: table;
+  position: relative;
+  height: 92vh;
   width: 55vw;
   font-size: 1em;
   margin: 0 auto;
-  margin-top: 15vh;
   line-height: 300%;
 }
-.About h1 {
+
+.About > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.About > div h1 {
   font-weight: 300;
 }
-.About h1 i {
+.About > div h1 i {
   font-weight: 500;
   color: #134859;
 }
-.About h1 u {
+.About > div h1 u {
   font-style: italic;
 }
-.About h1:first-of-type {
+.About > div h1:first-of-type {
   font-weight: 700;
   font-size: 3em;
   color: #134859;
 }
-.About div {
+.About > div div {
   display: inline-block;
   font-size: 2vw;
   padding: 8px;
@@ -33,11 +40,34 @@
   .About {
     width: 85vw;
   }
-  .About h1 {
+
+  .About > div h1 {
     font-size: 4.5vw;
     line-height: 180%;
+
   }
-  .About h1:first-of-type {
+  .About > div h1:first-of-type {
     font-size: 2.5em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .About h1:not(:first-child) {
+    font-size: 1.5em !important;
+  }
+  .About h1 {
+    font-size: 2.3em !important;
+
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .About {
+    display: block;
+  }
+  .About > div {
+    display: block;
+    margin-top: 10vh;
   }
 }

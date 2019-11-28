@@ -139,3 +139,9 @@
   }
 
 }
+
+@media (min-width: 1800px) {
+  .Project p {
+    font-size: 1.2em;
+  }
+}

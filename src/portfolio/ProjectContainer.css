@@ -23,3 +23,9 @@
     width: 70vw;
   }
 }
+
+@media (min-width: 1800px) {
+  .ProjectContainer {
+    width: 65vw;
+  }
+}

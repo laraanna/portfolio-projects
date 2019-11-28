@@ -32,3 +32,12 @@
     opacity: 0.95;
   }
 }
+
+@media (min-width: 1800px) {
+  .Profile {
+    font-size: 1.6em;
+  }
+  .Navigation .Icon > img {
+    height: 55px;
+  }
+}
