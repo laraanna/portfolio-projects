@@ -18,7 +18,7 @@ class About extends PureComponent {
           An <i>EdTech</i> student with a background in <i>Arts &amp; Technology</i>.
           I have worked as a <i>front-end developer</i> developing interactive tools that make research more intuitive and fun - exploring how to drive human engagement through digital tools.
           I am passionate about developing for <i>educational and fun</i> purposes and interested in how technological <i>innovations change the way we learn and work</i>. I would love to hear from you and share thoughts. Contact me by <u><a href={email} target="_top">
-          mail</a></u> or simply visit me on <u><a href={linkedin_profile} target="_blank">linkedin</a></u> or <u><a href={github_profile} target="_blank">github</a></u>.
+          mail</a></u> or simply visit me on <u><a href={linkedin_profile} target="_blank" rel="noopener noreferrer">linkedin</a></u> or <u><a href={github_profile} target="_blank" rel="noopener noreferrer">github</a></u>.
         </h1>
 
       </div>

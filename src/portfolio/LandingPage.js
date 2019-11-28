@@ -1,6 +1,5 @@
 import React, { PureComponent } from "react";
 import "./LandingPage.css";
-import TextBlock from "../components/TextBlock";
 import ProjectContainer from "./ProjectContainer";
 import projects from "../fixtures/projects";
 

@@ -41,7 +41,7 @@ class ProjectPage extends PureComponent {
         </video>
       );
     } else if (photo_1 !== ""){
-      cast = <img className="GalleryRight" src={photo_1} />;
+      cast = <img alt="" className="GalleryRight" src={photo_1} />;
     }
 
     if (video !== "") {
@@ -49,6 +49,7 @@ class ProjectPage extends PureComponent {
         <div className="video">
           <div className="aspectRatio">
             <iframe
+              title="mainVideo"
               src={video}
               width="640"
               height="360"
@@ -93,17 +94,17 @@ class ProjectPage extends PureComponent {
 
         <div className="fullWidth">
         <div className="grid">
-          <img src={grid1} />
-          <img src={grid2} />
-          <img src={grid3} />
-          <img src={grid4} />
+          <img alt="" src={grid1} />
+          <img alt="" src={grid2} />
+          <img alt="" src={grid3} />
+          <img alt="" src={grid4} />
         </div>
         </div>
 
-          <img src={image1} />
-          <img src={image2} />
-          <img src={image3} />
-          <img src={image4} />
+          <img alt="" src={image1} />
+          <img alt="" src={image2} />
+          <img alt="" src={image3} />
+          <img alt="" src={image4} />
   </div>
 
 

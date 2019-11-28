@@ -2,22 +2,18 @@ import coco from "../images/landing/Coco_fast.gif";
 import hugo from "../images/landing/hugo.png";
 import individuals from "../images/landing/individuals.png";
 import snag from "../images/landing/snag.gif";
-import portfolio_second from "../images/videos/portfolio_second.m4v";
 import matchmaker_second from "../images/videos/squarespace_second.m4v";
 import oneill_second from "../images/videos/oneill_second.m4v";
 import garments_1 from "../images/products/garments_1.png";
 import garments_2 from "../images/products/garments_1.jpg";
 import thijs from "../images/products/thijsDrawing.jpg";
 import rack from "../images/products/bannerrack.jpg";
-import fanny_phone from "../images/products/fanny_phone.gif";
 import hugo_phone from "../images/products/hugo_phone.gif";
 import hugo_4 from "../images/products/hugo4.jpg";
 import hugo_7 from "../images/products/hugo7.jpg";
 import brain from "../images/products/brain.png";
 import suit from "../images/products/suit.png";
 import innovators from "../images/products/innovators2.gif";
-import logoHiFive from "../images/products/logoHiFive.png";
-import imagecoco1 from "../images/products/bef-after.jpg";
 import imagecoco2 from "../images/products/atelier.jpg";
 import imagecoco3 from "../images/products/commerce.jpg";
 import imagecoco4 from "../images/products/fashion.jpg";
@@ -31,7 +27,6 @@ import hi3 from "../images/products/tops.png";
 import hi4 from "../images/products/businessmodel.png";
 import hi6 from "../images/products/pants.gif";
 import hi7 from "../images/products/floorplan-update.jpg";
-import hi8 from "../images/products/fivestand.jpg";
 
 
 export default [

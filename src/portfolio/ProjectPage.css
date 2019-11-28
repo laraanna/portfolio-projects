@@ -37,7 +37,7 @@
   margin: 1px;
   display: inline-block;
   padding: 3px;
-  background-color: red;
+  /* background-color: red; */
 }
 .ProjectPage .Header.Sub {
   font-size: 1em;
