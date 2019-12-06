@@ -4,6 +4,8 @@ import Routes from "./routes";
 import Navigation from "./components/Navigation";
 import ReactGA from 'react-ga';
 
+ReactGA.initialize('UA-154123382-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
@@ -14,9 +16,5 @@ function App() {
   );
 }
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-154123382-1');
-    ReactGA.pageview('/homepage');
-}
 
 export default App;
