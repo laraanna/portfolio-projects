@@ -8,7 +8,7 @@ class LandingPage extends PureComponent {
     return (
       <div className="LandingPage">
         <h3>
-          Lara Wagner
+          Lara-Anna Wagner
         </h3>
         <ProjectContainer projects={projects} />
       </div>
