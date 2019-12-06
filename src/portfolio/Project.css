@@ -65,6 +65,8 @@
 
 .Project:nth-child(5) {
   background-color: #E6B81E;
+  margin-bottom: 100px;
+
 }
 
 @media only screen and (min-width: 769px) {
@@ -72,7 +74,6 @@
     width: 20%;
     height: 35vh;
     margin-bottom: 0px;
-
   }
   .Project img {
     display: none;
